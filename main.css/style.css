@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+  }
+
+  h2{
+      margin: 0;
+      padding: 0;
+  }
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9E9E9E;;
+
+}
+
+
+.header {
+    width: 1400px;
+    height: 66px;
+    margin: 0 auto;
+    background-color: #363636;
+    box-shadow: 0px 2px 5px #2A3338;
+
+}
+
+.container {
+    width: 1305px;
+    margin: 0 auto;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+
+}
+
+.menu-text{
+
+    margin-right: 45px;
+    
+}
+
+.menu-link{
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.namesite{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 5px #000000;
+}
+
+.tel{
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: none;
+    text-decoration: none;
+
+}
+
+.img-logo {
+    width: 1400px;
+    height: 738px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.main{
+
+    width: 1400px;
+    height: 621px;
+    margin: 0 auto;
+    background-color: #C4C4C4;;
+}
+
+.chobotar {
+    display: column;
+    
+    width: 1400px;
+    height: 711px;
+    background: #F3EDED;
+    padding-top: 53px;
+}
+
+.name-chobotar{
+    margin-left: 300px;
+    margin-bottom: -28px;
+    padding: 18px 48px 23px 48px;
+    position: relative;
+    text-align: center;
+    width: 808px;
+    height: 152px;
+    background: #FFFFFF;
+    box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.images1 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1305px;
+    height: 282px;
+    background: #F3EDED;
+}
+
+.ch-about {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #2A3338;
+    margin-bottom: 10px;
+}
+
+.ch-zaproshenia {
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+
+}
+
+.ch-search {
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
